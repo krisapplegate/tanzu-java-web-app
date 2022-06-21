@@ -5,7 +5,7 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: tanzu-java-web-app
-    tanzu.app.live.view.application.protocol: https
+    tanzu.app.live.view.application.protocol: "https"
 spec:
   params:
   - name: annotations
