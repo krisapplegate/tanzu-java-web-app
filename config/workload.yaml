@@ -16,8 +16,11 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
+  - name: testing_pipeline_matching_labels
+      value:
+        apps.tanzu.vmware.com/pipeline: noop
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/tanzu-java-web-app
       ref:
         branch: main
