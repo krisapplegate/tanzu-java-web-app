@@ -1,14 +1,15 @@
-id: 6894fde8-9bce-47e7-891f-64023a40dce0
-timestamp: 2024-08-07T12:41:19.882Z
+id: c8599f03-6a97-4670-bd96-acf7e1f6878f
+timestamp: 2024-08-07T12:48:11.119Z
 source: TAP-GUI
 username: guest
 options:
   projectName: tanzu-java-web-app
-  javaVersion: "21"
-  buildTool: maven
+  javaVersion: "17"
+  buildTool: gradle
   nativeBuild: false
-  includeBuildToolWrapper: true
+  includeBuildToolWrapper: false
   includeDevContainer: false
+  ide: vscode
 accelerator:
   name: tanzu-java-web-app
 fragments:
