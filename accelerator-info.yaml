@@ -1,0 +1,19 @@
+id: 6894fde8-9bce-47e7-891f-64023a40dce0
+timestamp: 2024-08-07T12:41:19.882Z
+source: TAP-GUI
+username: guest
+options:
+  projectName: tanzu-java-web-app
+  javaVersion: "21"
+  buildTool: maven
+  nativeBuild: false
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
