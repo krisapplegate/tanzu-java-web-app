@@ -1,13 +1,12 @@
-id: a19df41a-cad0-4dd4-be49-5c07743dada5
-timestamp: 2024-08-07T12:57:10.387Z
+id: bbe4667a-d61c-4746-b2bf-9ff6cdcdd965
+timestamp: 2024-08-07T13:01:21.393Z
 source: TAP-GUI
 username: guest
 options:
   projectName: tanzu-java-web-app
+  javaVersion: "21"
   buildTool: maven
-  springBootVersion: 3.2
   nativeBuild: false
-  javaVersion: 17
   includeBuildToolWrapper: true
   includeDevContainer: false
 accelerator:
