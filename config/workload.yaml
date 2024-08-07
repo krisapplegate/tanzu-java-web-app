@@ -16,7 +16,7 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
-      apps.tanzu.vmware.com/pipeline: noop
+      apps.tanzu.vmware.com/pipeline: noop-pipeline
   source:
     git:
       url: https://github.com/krisapplegate/tanzu-java-web-app
